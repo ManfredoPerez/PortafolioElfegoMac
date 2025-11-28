@@ -44,7 +44,7 @@ const dockApps = [
   },
   {
     id: "safari",
-    name: "Articulos", // was "Safari"
+    name: "Pagina", // was "Safari"
     icon: "safari.png",
     canOpen: true,
   },
@@ -77,25 +77,25 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
+    date: "API Pokemones, 2024",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+      "Pokedex",
+    image: "/images/Pokedex.png",
+    link: "https://cosumiendoapipokedex.onrender.com/",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    date: "Meca JS, 2025",
+    title: "Meca JS",
+    image: "/images/MecaJS.png",
+    link: "https://meca-con-js.onrender.com/",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    date: "Portafolio, 2024",
+    title: "Portafolio Profecional Elfego Pérez",
+    image: "/images/Portafolio.png",
+    link: "https://manfredoperez.github.io/CVPORTAFOLIO/",
   },
 ];
 
