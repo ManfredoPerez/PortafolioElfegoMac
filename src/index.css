@@ -7,7 +7,7 @@ body {
   width: 100dvw;
   overflow: hidden;
   height: 100dvh;
-  background-image: url("/images/wallpaper.png");
+  background-image: url("/images/wallpaper3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -37,13 +37,30 @@ body {
   }
 
   nav {
-    @apply flex justify-between items-center bg-white/50 backdrop-blur-3xl p-2 px-5 select-none;
+    @apply flex justify-between items-center backdrop-blur-3xl p-2 px-5 select-none;
+    background-image: linear-gradient(to right, #3a3d6f, #6f3d3a);
 
     div {
       @apply flex items-center max-sm:w-full max-sm:justify-center gap-5;
 
+      img {
+        @apply invert;
+      }
+
+      p {
+        @apply text-white;
+      }
+
       &:last-child {
         @apply max-sm:hidden;
+
+        ul {
+          li {
+            img {
+              @apply invert;
+            }
+          }
+        }
       }
     }
 
@@ -51,12 +68,12 @@ body {
       @apply flex items-center gap-5 max-sm:hidden;
 
       p {
-        @apply text-sm cursor-pointer hover:underline transition-all;
+        @apply text-sm cursor-pointer hover:underline transition-all text-white;
       }
     }
 
     time {
-      @apply text-sm font-medium text-black;
+      @apply text-sm font-medium text-white;
     }
   }
 }
