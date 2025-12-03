@@ -367,7 +367,7 @@ const WORK_LOCATION = {
       name: "Portafolio Elfego",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 right-80",
+      position: "top-50 right-20",
       windowPosition: "top-[38vh] left-7",
       children: [
         {
